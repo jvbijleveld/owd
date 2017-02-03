@@ -2,7 +2,8 @@
 <resources>
 
     <string name="app_name">OWD</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">OWD v2</string>
     <string name="action_settings">Settings</string>
-
+    
+    <integer name="google_play_services_version">38</integer>
 </resources>
