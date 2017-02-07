@@ -9,24 +9,25 @@ public class TaskExecutor {
         Log.i("TaskExecutor", "Starting Task Executor");
 
         if (task.getGetLocation()) {
-            fetchLocation(task);
+            task.setLocation(MyLocation.getLocation());
             Log.i("TaskExecutor", "Got Location");
         }
 
         respond(task);
     }
 
-    private static void fetchLocation(OwdTask task) {
-        task.setLocation(MyLocation.getLocation());
-    }
-
     private static void respond(OwdTask task) {
-        Log.i("TaskExecutor:respond", "Sending SMS back");
+
         switch (task.getResponseType()) {
 
         case SMS:
+            Log.i("TaskExecutor:respond", "Sending SMS back");
             SmsSender.sendLocationResult(task);
             break;
+        case PHONE:
+            Log.i("TaskExecutor:respond", "Calling back");
+            Dialer d = new Dialer();
+            d.callme(task);
         default:
             break;
         }

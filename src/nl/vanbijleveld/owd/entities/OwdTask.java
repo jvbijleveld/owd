@@ -8,6 +8,7 @@ public class OwdTask {
     private String message;
     private Location location;
     private Boolean getLocation;
+    private ResponseLog responseLog;
 
     private TaskResponseType responseType;
 
@@ -49,6 +50,14 @@ public class OwdTask {
 
     public void setResponseType(TaskResponseType responseType) {
         this.responseType = responseType;
+    }
+
+    public ResponseLog getResponseLog() {
+        return this.responseLog;
+    }
+
+    public void setResponseLog(ResponseLog responseLog) {
+        this.responseLog = responseLog;
     }
 
 }

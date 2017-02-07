@@ -7,18 +7,23 @@ import android.util.Log;
 
 public class SmsTaskMapper {
 
-    final static String triggerText = "WY@?";
+    final static String triggerLocationText = "WY@?";
 
     static public OwdTask map(SmsMessage message) {
         String messageBody = message.getDisplayMessageBody();
 
-        if (triggerText.equals(messageBody.substring(0, triggerText.length()))) {
+        if (triggerLocationText.equals(messageBody.substring(0, triggerLocationText.length()))) {
 
             Log.i("SmsTaskMapper", "Start processing message: " + message);
             OwdTask task = new OwdTask();
             task.setGetLocation(true);
             task.setRequestor(message.getDisplayOriginatingAddress());
-            task.setResponseType(TaskResponseType.SMS);
+
+            if (messageBody.contains(" -call")) {
+                task.setResponseType(TaskResponseType.PHONE);
+            } else {
+                task.setResponseType(TaskResponseType.SMS);
+            }
             return task;
 
         } else {
