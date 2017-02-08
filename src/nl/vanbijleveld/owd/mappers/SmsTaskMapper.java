@@ -13,15 +13,15 @@ public class SmsTaskMapper {
         String messageBody = message.getDisplayMessageBody();
 
         if (triggerLocationText.equals(messageBody.substring(0, triggerLocationText.length()))) {
+            OwdTask task = new OwdTask();
 
             Log.i("SmsTaskMapper", "Start processing message: " + message);
-            OwdTask task = new OwdTask();
-            task.setGetLocation(true);
             task.setRequestor(message.getDisplayOriginatingAddress());
 
             if (messageBody.contains(" -call")) {
                 task.setResponseType(TaskResponseType.PHONE);
             } else {
+                task.setFetchLocation(true);
                 task.setResponseType(TaskResponseType.SMS);
             }
             return task;

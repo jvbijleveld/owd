@@ -1,16 +1,26 @@
 package nl.vanbijleveld.owd.entities;
 
+import android.content.Context;
 import android.location.Location;
 
 public class OwdTask {
 
+    private Context context;
     private String requestor;
     private String message;
     private Location location;
-    private Boolean getLocation;
+    private boolean fetchLocation;
     private ResponseLog responseLog;
 
     private TaskResponseType responseType;
+
+    public void setContext(Context context) {
+        this.context = context;
+    }
+
+    public Context getContext() {
+        return this.context;
+    }
 
     public String getRequestor() {
         return requestor;
@@ -36,12 +46,12 @@ public class OwdTask {
         this.location = location;
     }
 
-    public Boolean getGetLocation() {
-        return getLocation;
+    public boolean getFetchLocation() {
+        return fetchLocation;
     }
 
-    public void setGetLocation(Boolean getLocation) {
-        this.getLocation = getLocation;
+    public void setFetchLocation(boolean fetchLocation) {
+        this.fetchLocation = fetchLocation;
     }
 
     public TaskResponseType getResponseType() {

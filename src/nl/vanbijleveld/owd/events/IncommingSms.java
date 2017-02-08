@@ -24,8 +24,19 @@ public class IncommingSms extends BroadcastReceiver {
                 final Object[] pdusObj = (Object[]) bundle.get("pdus");
                 for (int i = 0; i < pdusObj.length; i++) {
                     SmsMessage currentMessage = SmsMessage.createFromPdu((byte[]) pdusObj[i]);
+
+                    TaskExecutor executor = new TaskExecutor();
+
                     OwdTask task = SmsTaskMapper.map(currentMessage);
-                    TaskExecutor.execute(task);
+
+                    if (task != null) {
+                        task.setContext(context);
+                        try {
+                            executor.execute(task);
+                        } catch (Exception e) {
+                            Log.e("TaskExector", "Error Executing task; " + e);
+                        }
+                    }
                 }
             }
         } catch (Exception e) {
