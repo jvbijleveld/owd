@@ -1,50 +1,66 @@
 package nl.vanbijleveld.owd.workers;
 
+import android.content.Context;
 import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.os.Bundle;
-import android.util.Log;
 
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.api.GoogleApiClient;
-import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
-import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
-import com.google.android.gms.location.LocationServices;
+public class MyLocation {
 
-public class MyLocation implements ConnectionCallbacks, OnConnectionFailedListener {
+    private final String LOCATION_PROVIDER = LocationManager.GPS_PROVIDER;
+    private final Integer LOCATION_INTERVAL = 10 * 1000;
 
-    private static GoogleApiClient mGoogleApiCLient;
     private final TaskExecutor executor;
+    private final LocationManager mLocationManager;
+    private LocationListener mLocationListener;
+    private Location myLocation;
 
     public MyLocation(TaskExecutor executor) {
         this.executor = executor;
-        mGoogleApiCLient =
-                new GoogleApiClient.Builder(this.executor.getTask().getContext()).addConnectionCallbacks(this).addOnConnectionFailedListener(this).addApi(LocationServices.API)
-                .build();
+        mLocationManager = (LocationManager) this.executor.getTask().getContext().getApplicationContext().getSystemService(Context.LOCATION_SERVICE);
     }
 
     public void fetch() {
-        mGoogleApiCLient.connect();
-    }
-
-    @Override
-    public void onConnectionFailed(ConnectionResult arg0) {
-        mGoogleApiCLient.disconnect();
-    }
-
-    @Override
-    public void onConnected(Bundle arg0) {
-        Location location = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiCLient);
-
-        Log.i("MyLocation", "Fetched location");
-
-        if (location != null && this.executor != null) {
-            this.executor.updateLocation(location);
+        if (myLocation != null) {
+            executor.updateLocation(myLocation);
+            endUpdates();
+        } else {
+            mLocationListener = createLocationListener();
+            mLocationManager.requestLocationUpdates(LOCATION_PROVIDER, LOCATION_INTERVAL, 0, mLocationListener);
         }
     }
 
-    @Override
-    public void onConnectionSuspended(int arg0) {
-        mGoogleApiCLient.disconnect();
+    public void endUpdates() {
+        if (mLocationListener != null) {
+            mLocationManager.removeUpdates(mLocationListener);
+            mLocationListener = null;
+        }
     }
 
+    private LocationListener createLocationListener() {
+        return new LocationListener() {
+
+            @Override
+            public void onLocationChanged(Location location) {
+                myLocation = location;
+                executor.updateLocation(location);
+                endUpdates();
+            }
+
+            @Override
+            public void onStatusChanged(String provider, int status, Bundle extras) {
+            }
+
+            @Override
+            public void onProviderEnabled(String provider) {
+
+            }
+
+            @Override
+            public void onProviderDisabled(String provider) {
+            }
+
+        };
+    }
 }

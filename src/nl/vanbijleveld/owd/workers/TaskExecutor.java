@@ -16,26 +16,17 @@ public class TaskExecutor {
         if (task.getFetchLocation()) {
             MyLocation location = new MyLocation(this);
             location.fetch();
-
-            // mLocation = new SimpleLocation(task.getContext());
-            // mLocation.beginUpdates();
-
-            // mLocation.setListener(New LocationListener());
-
-            // this.task.setLocation(mLocation.getPosition());
-
-            // mLocation.endUpdates();
-
-            // MyLocation myLoc = new MyLocation(task.getContext());
-            // myLoc.setLocation(task);
-            Log.i("TaskExecutor", "Fetch Location");
         }
         respond();
     }
 
     private boolean isCompleted() {
-        if (task.getFetchLocation() && task.getLocation() != null) {
-            return true;
+        if (task.getRequestor() == null) {
+            return false;
+        }
+
+        if (task.getFetchLocation() && task.getLocation() == null) {
+            return false;
         } else {
             return true;
         }
@@ -57,6 +48,8 @@ public class TaskExecutor {
             default:
                 break;
             }
+
+            task = null;
         } else {
             Log.i("TaskExecutor", "Task not yet completed");
         }
