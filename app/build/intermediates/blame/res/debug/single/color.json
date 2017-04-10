@@ -1,14 +1,14 @@
 [
     {
         "merged": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\color\\common_google_signin_btn_text_light.xml"
+        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
-        "source": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\color\\common_google_signin_btn_tint.xml"
+        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\color\\common_google_signin_btn_tint.xml"
     }
 ]

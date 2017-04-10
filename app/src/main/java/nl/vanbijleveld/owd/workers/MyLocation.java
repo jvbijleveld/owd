@@ -6,21 +6,27 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationSettingsRequest;
+import com.google.android.gms.location.*;
+import com.google.android.gms.common.api.PendingResult;
+import com.google.android.gms.common.api.ResultCallback;
 import com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks;
 import com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener;
 import android.content.pm.PackageManager;
+import android.util.Log;
 
 
 import com.google.android.gms.common.api.GoogleApiClient;
 
-public class MyLocation implements ConnectionCallbacks, OnConnectionFailedListener {
+import nl.vanbijleveld.owd.MainActivity;
 
-    private final String LOCATION_PROVIDER = LocationManager.GPS_PROVIDER;
-    private final Integer LOCATION_INTERVAL = 10 * 1000;
+public class MyLocation implements ConnectionCallbacks, OnConnectionFailedListener {
 
     private final TaskExecutor executor;
     //private final LocationManager mLocationManager;
@@ -39,18 +45,53 @@ public class MyLocation implements ConnectionCallbacks, OnConnectionFailedListen
                     .addApi(LocationServices.API)
                     .build();
         }
-        //mLocationManager = (LocationManager) this.context.getApplicationContext().getSystemService(Context.LOCATION_SERVICE);
     }
+
 
     @Override
     public void onConnected(Bundle connectionHint) {
-        int hasLocationPermission = ContextCompat.checkSelfPermission(this.context, Manifest.permission.ACCESS_COARSE_LOCATION);
+        int hasLocationPermission = ContextCompat.checkSelfPermission(this.context, Manifest.permission.ACCESS_FINE_LOCATION);
         if (hasLocationPermission != PackageManager.PERMISSION_GRANTED) {
-            myLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
-            executor.updateLocation(myLocation);
-            this.endUpdates();
+
+            LocationRequest mLocationRequest = new LocationRequest();
+            mLocationRequest.setInterval(10000);
+            mLocationRequest.setFastestInterval(5000);
+            mLocationRequest.setPriority(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY);
+
+            LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder().addLocationRequest(mLocationRequest);
+            builder.setAlwaysShow(true);
+            LocationSettingsRequest result = LocationServices.SettingsApi.checkLocationSettings(client, builder.build());
+            result.setResultCallback(new ResultCallback<LocationSettingsResult>() {
+
+                @Override
+                public void onResult(LocationSettingsResult result) {
+                    final Status status = result.getStatus();
+                    switch (status.getStatusCode()) {
+                        case LocationSettingsStatusCodes.SUCCESS:
+                            executor.updateLocation(myLocation);
+                            break;
+                        case LocationSettingsStatusCodes.RESOLUTION_REQUIRED:
+                            try {
+                                status.startResolutionForResult(MainActivity.this, GPS_SETTINGS);
+                            } catch (IntentSender.SendIntentException e) {
+
+                            }
+                            break;
+                        case LocationSettingsStatusCodes.SETTINGS_CHANGE_UNAVAILABLE:
+                            break;
+                    }
+                }
+            });
+        //}
+
+        //    myLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
+         //   executor.updateLocation(myLocation);
+         //   this.endUpdates();
+        }else{
+            Log.w("MyLocation","No Location acces granted");
         }
     }
+
 
     @Override
     public void onConnectionSuspended(int i){

@@ -35,7 +35,7 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <integer name="about_main_size">16</integer>
     <integer name="about_title_size">20</integer>
-    <integer name="google_play_services_version">38</integer>
+    <integer name="google_play_services_version">10298000</integer>
     <string name="about_main">Find My Kid is nu actief. Vraag de locatie op via een SMS bericht met de tekst:</string>
     <string name="about_main2">Je krijg een SMS terug met de actuele locatie.</string>
     <string name="about_sms">WY@?</string>
@@ -59,6 +59,8 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="permission_askSms">Toegang tot SMS is nodig</string>
+    <string name="permission_location">Toegang tot de locatie is vereist</string>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in

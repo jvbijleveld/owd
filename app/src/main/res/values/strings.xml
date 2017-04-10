@@ -8,9 +8,11 @@
     
     <string name="about_sms">WY@?</string>
     <string name="about_main2">Je krijg een SMS terug met de actuele locatie.</string>
-    
-    
-    <integer name="google_play_services_version">38</integer>
+    <string name="permission_askSms">Toegang tot SMS is nodig</string>
+    <string name="permission_location">Toegang tot de locatie is vereist</string>
+
+
+    <integer name="google_play_services_version">10298000</integer>
     <integer name="about_title_size">20</integer>
     <integer name="about_main_size">16</integer>
     

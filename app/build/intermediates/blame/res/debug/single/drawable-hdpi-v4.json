@@ -1,30 +1,30 @@
 [
     {
         "merged": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
-        "source": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\googleg_disabled_color_18.png",
-        "source": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
+        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\drawable-hdpi-v4\\googleg_disabled_color_18.png"
     },
     {
         "merged": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
-        "source": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\googleg_standard_color_18.png",
-        "source": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
+        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\drawable-hdpi-v4\\googleg_standard_color_18.png"
     },
     {
         "merged": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_full_open_on_phone.png",
-        "source": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
+        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
-        "source": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
-        "source": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+        "source": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
     }
 ]

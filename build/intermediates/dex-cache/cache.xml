@@ -2,13 +2,31 @@
 <items version="2" >
 
     <item
+        is-multidex="true"
+        jar="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_09d8fa2db7cb25b225620fbd5f1fc6333bfebd39\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
-        jar="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jar="C:\Users\Jeffrey\.android\build-cache\89c01cf30220e953ad3c39d7a4f497074f55c9fc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
+        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\classes_24931a5ce3c37daf46c0df9b08086e7a6ed8cf4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jeffrey\.android\build-cache\f609c63d6cdacc7bfe8e31be781758c630312884\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_1aa14cf1c92bdd6fcd51ff518f51cb566cba8bff.jar" />
+        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\classes_a5869899900f0f1deda7a7dbb61f0d64b64694c3.jar" />
     </item>
     <item
         is-multidex="false"
@@ -21,48 +39,48 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_2eeee03171ffc6a60d62a6d12d1f67b7963add0c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.1\jars\classes.jar"
+        jar="C:\Users\Jeffrey\.android\build-cache\89e2a05c28838e2d3948104a7c428a842fc5ed85\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="19696dc358ac668e341f28c41e3387d61ccdb81d">
-        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-10.2.1_50d1b65a4bddda3c89646035cbda9d858cf04041.jar" />
+        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\classes_0b05794bf72be7ce9d987f4914c9b2416da87da8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
-        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-10.2.1_1d0a68ec249ad9fd49c69a551aa5ee49cb9b072f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bdcc2a9572f18b8c90a3a157cab6cdfc97c6c736">
-        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-10.2.1_03f75d87bb7f5533425223e6e16eeba68ae9d76f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\10.2.1\jars\classes.jar"
+        jar="C:\Users\Jeffrey\.android\build-cache\7ac4234dbce982f7acbd9f55a7447c8b540721b8\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="bb115a110992b254f767f337da233071f6f940b8">
-        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-10.2.1_2d9e8714f4fea3bef19fab3906ce8d4dbfc3f5f4.jar" />
+        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\classes_949ca57c824403fe794459e8514f73a3899cdf21.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jeffrey\.android\build-cache\f609c63d6cdacc7bfe8e31be781758c630312884\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_ebe5f2df0f2b814f7b5ea020b9cb2344bee93d1b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38cb155af2a1891be164063e7785c7379a59d832">
+        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_731596b8baff0dd414b95ecafcc62f7363cad688\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Jeffrey\.android\build-cache\f50591d0f8ee8114ef8b11f6f417c2b4fd9df547\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6003d64df88a6ce5e961fa2bad7f1b9b97689ac1">
+        <dex dex="C:\Users\Jeffrey\workspace\owd\app\build\intermediates\pre-dexed\debug\classes_a0773c555b4dfd522de509444bfab71006224be8.jar" />
     </item>
 
 </items>

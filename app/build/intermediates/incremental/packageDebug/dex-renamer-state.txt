@@ -1,4 +1,7 @@
-#Thu Apr 06 23:35:15 CEST 2017
-base.0=C\:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Mon Apr 10 22:32:25 CEST 2017
+base.0=C\:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_731596b8baff0dd414b95ecafcc62f7363cad688
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_09d8fa2db7cb25b225620fbd5f1fc6333bfebd39\\classes.dex
+base.1=C\:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_09d8fa2db7cb25b225620fbd5f1fc6333bfebd39
+file.0=C\:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_731596b8baff0dd414b95ecafcc62f7363cad688\\classes.dex

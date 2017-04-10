@@ -11,7 +11,7 @@
                     "endOffset": 190
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 0,
@@ -30,7 +30,7 @@
                     "endOffset": 270
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 0,
@@ -49,7 +49,7 @@
                     "endOffset": 360
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 0,
@@ -68,7 +68,7 @@
                     "endOffset": 450
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -87,7 +87,7 @@
                     "endOffset": 530
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -106,7 +106,7 @@
                     "endOffset": 611
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 0,
@@ -125,7 +125,7 @@
                     "endOffset": 691
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 0,
@@ -144,7 +144,7 @@
                     "endOffset": 771
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 0,
@@ -203,11 +203,11 @@
                 "from": {
                     "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 591,
+                        "startOffset": 737,
                         "endColumn": 48,
-                        "endOffset": 635
+                        "endOffset": 781
                     }
                 }
             },
@@ -222,11 +222,11 @@
                 "from": {
                     "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 541,
+                        "startOffset": 687,
                         "endColumn": 49,
-                        "endOffset": 586
+                        "endOffset": 732
                     }
                 }
             },
@@ -235,17 +235,17 @@
                     "startLine": 37,
                     "startColumn": 4,
                     "startOffset": 1712,
-                    "endColumn": 61,
-                    "endOffset": 1769
+                    "endColumn": 67,
+                    "endOffset": 1775
                 },
                 "from": {
                     "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 479,
-                        "endColumn": 61,
-                        "endOffset": 536
+                        "startOffset": 619,
+                        "endColumn": 67,
+                        "endOffset": 682
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 1774,
+                    "startOffset": 1780,
                     "endColumn": 118,
-                    "endOffset": 1888
+                    "endOffset": 1894
                 },
                 "from": {
                     "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 215,
+                        "startOffset": 210,
                         "endColumn": 118,
-                        "endOffset": 329
+                        "endOffset": 324
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 1893,
+                    "startOffset": 1899,
                     "endColumn": 86,
-                    "endOffset": 1975
+                    "endOffset": 1981
                 },
                 "from": {
                     "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 382,
+                        "startOffset": 377,
                         "endColumn": 86,
-                        "endOffset": 464
+                        "endOffset": 459
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 1980,
+                    "startOffset": 1986,
                     "endColumn": 42,
-                    "endOffset": 2018
+                    "endOffset": 2024
                 },
                 "from": {
                     "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 339,
+                        "startOffset": 334,
                         "endColumn": 42,
-                        "endOffset": 377
+                        "endOffset": 372
                     }
                 }
             },
@@ -310,18 +310,18 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 2023,
+                    "startOffset": 2029,
                     "endColumn": 51,
-                    "endOffset": 2070
+                    "endOffset": 2076
                 },
                 "from": {
                     "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 108,
+                        "startOffset": 105,
                         "endColumn": 51,
-                        "endOffset": 155
+                        "endOffset": 152
                     }
                 }
             },
@@ -329,18 +329,18 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 2075,
+                    "startOffset": 2081,
                     "endColumn": 52,
-                    "endOffset": 2123
+                    "endOffset": 2129
                 },
                 "from": {
                     "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 161,
+                        "startOffset": 157,
                         "endColumn": 52,
-                        "endOffset": 209
+                        "endOffset": 205
                     }
                 }
             },
@@ -348,18 +348,18 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 2128,
+                    "startOffset": 2134,
                     "endColumn": 48,
-                    "endOffset": 2172
+                    "endOffset": 2178
                 },
                 "from": {
                     "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 58,
+                        "startOffset": 56,
                         "endColumn": 48,
-                        "endOffset": 102
+                        "endOffset": 100
                     }
                 }
             },
@@ -367,12 +367,12 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 2177,
+                    "startOffset": 2183,
                     "endColumn": 104,
-                    "endOffset": 2277
+                    "endOffset": 2283
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 0,
@@ -386,12 +386,12 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 2282,
+                    "startOffset": 2288,
                     "endColumn": 180,
-                    "endOffset": 2458
+                    "endOffset": 2464
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 0,
@@ -405,12 +405,12 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 2463,
+                    "startOffset": 2469,
                     "endColumn": 124,
-                    "endOffset": 2583
+                    "endOffset": 2589
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 0,
@@ -424,12 +424,12 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 2588,
+                    "startOffset": 2594,
                     "endColumn": 106,
-                    "endOffset": 2690
+                    "endOffset": 2696
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 0,
@@ -443,12 +443,12 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 2695,
+                    "startOffset": 2701,
                     "endColumn": 179,
-                    "endOffset": 2870
+                    "endOffset": 2876
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 0,
@@ -462,12 +462,12 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 2875,
+                    "startOffset": 2881,
                     "endColumn": 122,
-                    "endOffset": 2993
+                    "endOffset": 2999
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 0,
@@ -481,12 +481,12 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 2998,
+                    "startOffset": 3004,
                     "endColumn": 102,
-                    "endOffset": 3096
+                    "endOffset": 3102
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 0,
@@ -500,12 +500,12 @@
                 "to": {
                     "startLine": 51,
                     "startColumn": 4,
-                    "startOffset": 3101,
+                    "startOffset": 3107,
                     "endColumn": 166,
-                    "endOffset": 3263
+                    "endOffset": 3269
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89c01cf30220e953ad3c39d7a4f497074f55c9fc\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 0,
@@ -519,12 +519,12 @@
                 "to": {
                     "startLine": 52,
                     "startColumn": 4,
-                    "startOffset": 3268,
+                    "startOffset": 3274,
                     "endColumn": 187,
-                    "endOffset": 3451
+                    "endOffset": 3457
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 0,
@@ -538,12 +538,12 @@
                 "to": {
                     "startLine": 53,
                     "startColumn": 4,
-                    "startOffset": 3456,
+                    "startOffset": 3462,
                     "endColumn": 104,
-                    "endOffset": 3556
+                    "endOffset": 3562
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 0,
@@ -557,12 +557,12 @@
                 "to": {
                     "startLine": 54,
                     "startColumn": 4,
-                    "startOffset": 3561,
+                    "startOffset": 3567,
                     "endColumn": 180,
-                    "endOffset": 3737
+                    "endOffset": 3743
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 0,
@@ -576,12 +576,12 @@
                 "to": {
                     "startLine": 55,
                     "startColumn": 4,
-                    "startOffset": 3742,
+                    "startOffset": 3748,
                     "endColumn": 124,
-                    "endOffset": 3862
+                    "endOffset": 3868
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 0,
@@ -595,12 +595,12 @@
                 "to": {
                     "startLine": 56,
                     "startColumn": 4,
-                    "startOffset": 3867,
+                    "startOffset": 3873,
                     "endColumn": 174,
-                    "endOffset": 4037
+                    "endOffset": 4043
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 0,
@@ -614,12 +614,12 @@
                 "to": {
                     "startLine": 57,
                     "startColumn": 4,
-                    "startOffset": 4042,
+                    "startOffset": 4048,
                     "endColumn": 147,
-                    "endOffset": 4185
+                    "endOffset": 4191
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 0,
@@ -633,12 +633,12 @@
                 "to": {
                     "startLine": 58,
                     "startColumn": 4,
-                    "startOffset": 4190,
+                    "startOffset": 4196,
                     "endColumn": 62,
-                    "endOffset": 4248
+                    "endOffset": 4254
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 0,
@@ -652,12 +652,12 @@
                 "to": {
                     "startLine": 59,
                     "startColumn": 4,
-                    "startOffset": 4253,
+                    "startOffset": 4259,
                     "endColumn": 61,
-                    "endOffset": 4310
+                    "endOffset": 4316
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 0,
@@ -671,12 +671,12 @@
                 "to": {
                     "startLine": 60,
                     "startColumn": 4,
-                    "startOffset": 4315,
+                    "startOffset": 4321,
                     "endColumn": 78,
-                    "endOffset": 4389
+                    "endOffset": 4395
                 },
                 "from": {
-                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\10.2.1\\res\\values\\values.xml",
+                    "file": "C:\\Users\\Jeffrey\\.android\\build-cache\\89e2a05c28838e2d3948104a7c428a842fc5ed85\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 0,
@@ -690,10 +690,48 @@
                 "to": {
                     "startLine": 61,
                     "startColumn": 4,
-                    "startOffset": 4394,
-                    "endLine": 67,
+                    "startOffset": 4400,
+                    "endColumn": 70,
+                    "endOffset": 4466
+                },
+                "from": {
+                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 464,
+                        "endColumn": 70,
+                        "endOffset": 530
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 4471,
+                    "endColumn": 81,
+                    "endOffset": 4548
+                },
+                "from": {
+                    "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 535,
+                        "endColumn": 81,
+                        "endOffset": 612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 4553,
+                    "endLine": 69,
                     "endColumn": 12,
-                    "endOffset": 4680
+                    "endOffset": 4839
                 },
                 "from": {
                     "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\styles.xml",
@@ -709,12 +747,12 @@
             },
             {
                 "to": {
-                    "startLine": 68,
+                    "startLine": 70,
                     "startColumn": 4,
-                    "startOffset": 4685,
-                    "endLine": 70,
+                    "startOffset": 4844,
+                    "endLine": 72,
                     "endColumn": 12,
-                    "endOffset": 4840
+                    "endOffset": 4999
                 },
                 "from": {
                     "file": "C:\\Users\\Jeffrey\\workspace\\owd\\app\\src\\main\\res\\values\\styles.xml",
