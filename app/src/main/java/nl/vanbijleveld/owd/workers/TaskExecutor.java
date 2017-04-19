@@ -14,7 +14,7 @@ public class TaskExecutor {
         this.task = task;
 
         if (task.getFetchLocation()) {
-            MyLocation location = new MyLocation(this);
+            FusedLocation location = new FusedLocation(this);
             location.fetch();
         }
         respond();
@@ -56,6 +56,7 @@ public class TaskExecutor {
     }
 
     public void updateLocation(Location location) {
+        Log.i("TaskExecutor", "Got a location");
         this.task.setLocation(location);
         respond();
     }

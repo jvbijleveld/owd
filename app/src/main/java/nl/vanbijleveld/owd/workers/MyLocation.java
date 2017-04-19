@@ -13,6 +13,7 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationSettingsRequest;
+import com.google.android.gms.location.LocationSettingsStatusCodes;
 import com.google.android.gms.location.*;
 import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.common.api.ResultCallback;
@@ -26,25 +27,35 @@ import com.google.android.gms.common.api.GoogleApiClient;
 
 import nl.vanbijleveld.owd.MainActivity;
 
-public class MyLocation implements ConnectionCallbacks, OnConnectionFailedListener {
+/*
+public class MyLocation implements LocationListener, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener {
 
     private final TaskExecutor executor;
     //private final LocationManager mLocationManager;
     private LocationListener mLocationListener;
+    private LocationRequest mLocationRequest;
     private Location myLocation;
     private GoogleApiClient mGoogleApiClient;
     private Context context;
 
+    private static final long POLLING_FREQ = 1000 * 30;
+    private static final long FASTEST_UPDATE_FREQ = 1000 * 5;
+    private static final float MIN_ACCURACY = 25.0f;
+    private static final float MIN_LAST_READ_ACCURACY = 500.0f;
+
     public MyLocation(TaskExecutor executor) {
         this.executor = executor;
         this.context = this.executor.getTask().getContext();
-        if (mGoogleApiClient == null) {
-            mGoogleApiClient = new GoogleApiClient.Builder(this.context)
+        mLocationRequest = LocationRequest.create();
+        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+        mLocationRequest.setInterval(POLLING_FREQ);
+        mLocationRequest.setFastestInterval(FASTEST_UPDATE_FREQ);
+
+        mGoogleApiClient = new GoogleApiClient.Builder(this.context)
                     .addConnectionCallbacks(this)
                     .addOnConnectionFailedListener(this)
                     .addApi(LocationServices.API)
                     .build();
-        }
     }
 
 
@@ -53,45 +64,46 @@ public class MyLocation implements ConnectionCallbacks, OnConnectionFailedListen
         int hasLocationPermission = ContextCompat.checkSelfPermission(this.context, Manifest.permission.ACCESS_FINE_LOCATION);
         if (hasLocationPermission != PackageManager.PERMISSION_GRANTED) {
 
-            LocationRequest mLocationRequest = new LocationRequest();
-            mLocationRequest.setInterval(10000);
-            mLocationRequest.setFastestInterval(5000);
-            mLocationRequest.setPriority(LocationRequest.PRIORITY_BALANCED_POWER_ACCURACY);
+            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
 
-            LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder().addLocationRequest(mLocationRequest);
-            builder.setAlwaysShow(true);
-            LocationSettingsRequest result = LocationServices.SettingsApi.checkLocationSettings(client, builder.build());
-            result.setResultCallback(new ResultCallback<LocationSettingsResult>() {
-
-                @Override
-                public void onResult(LocationSettingsResult result) {
-                    final Status status = result.getStatus();
-                    switch (status.getStatusCode()) {
-                        case LocationSettingsStatusCodes.SUCCESS:
-                            executor.updateLocation(myLocation);
-                            break;
-                        case LocationSettingsStatusCodes.RESOLUTION_REQUIRED:
-                            try {
-                                status.startResolutionForResult(MainActivity.this, GPS_SETTINGS);
-                            } catch (IntentSender.SendIntentException e) {
-
-                            }
-                            break;
-                        case LocationSettingsStatusCodes.SETTINGS_CHANGE_UNAVAILABLE:
-                            break;
-                    }
-                }
-            });
-        //}
-
-        //    myLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
-         //   executor.updateLocation(myLocation);
-         //   this.endUpdates();
+            myLocation = LocationServices.FusedLocationApi.getLastLocation(mGoogleApiClient);
+            executor.updateLocation(myLocation);
+           this.endUpdates();
         }else{
             Log.w("MyLocation","No Location acces granted");
         }
     }
 
+    @Override
+    public void onStatusChanged(String str, Integer i, Bundle bundle){
+        Log.w("MyLocation","Status Changed");
+        this.endUpdates();
+    }
+
+    @Override
+    public void onLocationChanged(Location location) {
+        // Determine whether new location is better than current best
+        // estimate
+        if (null == myLocation || location.getAccuracy() < myLocation.getAccuracy()) {
+            myLocation = location;
+
+            if (myLocation.getAccuracy() < MIN_ACCURACY) {
+                LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
+            }
+        }
+    }
+
+    private boolean servicesAvailable() {
+        int resultCode = GooglePlayServicesUtil.isGooglePlayServicesAvailable(this);
+
+        if (ConnectionResult.SUCCESS == resultCode) {
+            return true;
+        }
+        else {
+            GooglePlayServicesUtil.getErrorDialog(resultCode, this, 0).show();
+            return false;
+        }
+    }
 
     @Override
     public void onConnectionSuspended(int i){
@@ -113,3 +125,4 @@ public class MyLocation implements ConnectionCallbacks, OnConnectionFailedListen
         //super.onStop();
     }
 }
+*/

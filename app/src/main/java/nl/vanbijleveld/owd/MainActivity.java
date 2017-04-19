@@ -23,7 +23,6 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         //this.permissions = new Permissions(this);
-
         setContentView(R.layout.activity_main);
     }
 
